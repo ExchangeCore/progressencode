@@ -1,0 +1,21 @@
+{
+    "name": "exchangecore/progressencode",
+    "description": "PHP implementation of the Progress OpenEdge ENCODE algorithm",
+    "keywords": [
+        "php",
+        "encode"
+    ],
+    "homepage": "http://www.exchangecore.com",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ExchangeCore/progressencode/issues",
+        "source": "https://github.com/ExchangeCore/progressencode"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"exchangecore\\progressencode\\": "src/"}
+    }
+}
